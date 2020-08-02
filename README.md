@@ -1,4 +1,4 @@
-# [Mage](https://github.com/lkhedlund/mage)
+# [One Red Pixel](https://github.com/SomeChineseGuy/mage)
 
 Mage is a WordPress starter theme based on Sage 8, with Webpack 4, Gutenberg theming, a Vue option, and more!
 
