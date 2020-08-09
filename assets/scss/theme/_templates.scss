@@ -182,7 +182,7 @@ nav {
     height: 110vh;
     width: 100%;
     position: absolute;
-    top: 0;
+    top: 100px;
     left: 0;
     z-index: 10;
     background: rgba(23,23,23,.4);
@@ -241,7 +241,7 @@ nav {
 #creative-section .work-img {
     height: 100%;
     width: 100%;
-    // background-image: url('../img/desk.jpg');
+    background-image: url('http://kris-site.local/wp-content/uploads/2020/08/kris.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
