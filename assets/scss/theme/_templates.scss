@@ -27,7 +27,7 @@ h5 {
 }
 
 h1, h2, h3, h4, h5 {
-    /* font-family: 'Roboto Mono', monospace; */
+    font-family: 'Roboto Mono', monospace;
     font-family: 'bebas_neueregular';
     color: white;
     letter-spacing: 5px;
@@ -241,7 +241,7 @@ nav {
 #creative-section .work-img {
     height: 100%;
     width: 100%;
-    background-image: url('http://kris-site.local/wp-content/uploads/2020/08/kris.jpg');
+    background-image: url('http://kris-site.local/wp-content/uploads/2020/08/awhCbhLqRceCdjcPQUnn_IMG_0249-scaled.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -375,7 +375,7 @@ nav {
     color: #f10;
     font-size: 80px;
     padding-bottom: 7rem;
-    font-family: 'bebas_neueregular';
+    // font-family: 'bebas_neueregular';
     letter-spacing: 5px;
 
 }
@@ -425,7 +425,7 @@ canvas {
 }
 
 .info-image {
-    // background: url('../img/kris.jpg');
+    background: url('http://kris-site.local/wp-content/uploads/2020/08/kris.jpg');
     height: 575px;
     width: 590px;
     background-size: cover;

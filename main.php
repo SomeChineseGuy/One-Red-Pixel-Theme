@@ -37,10 +37,17 @@
     </article>        
 </section>
 
-<section id="client-project" class="row wow fadeIn">
-    <h2>Previous Clients</h2>
-        
+<section id="instagram" class="animated fadeIn">
+    <h2>Follow Us on Instagram</h2>   
+    <?php echo do_shortcode('[instagram-feed]'); ?>
 </section>
+
+<section id="client-project" class="wow fadeIn">
+    <h2>Previous Clients</h2>
+    <?php echo do_shortcode('[URIS id=60]'); ?>
+</section>
+
+
 
 <section id="about">
     <h2>About</h2>
