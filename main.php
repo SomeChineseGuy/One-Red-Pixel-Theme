@@ -13,7 +13,7 @@
         <source src="http://kris-site.local/wp-content/uploads/2020/08/SpaceRun.mp4" type="video/mp4">
     </video>
     <div class="content">
-        <h1>Every great idea starts with <span class="red-hover">One Pixel</span></h1>
+        <h1>THIS IS A TEST <span class="red-hover">One Pixel</span></h1>
     </div>
 </header>
 <section id="creative-section" class="wow fadeIn">
