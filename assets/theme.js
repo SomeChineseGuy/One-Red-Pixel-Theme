@@ -4,6 +4,9 @@ import 'bootstrap';
 
 import importAllFiles from './build/utils';
 
+// Wow Import
+window.WOW = require('../node_modules/wowjs').WOW;
+
 // Load theme files
 require('./scss/theme.scss');
 

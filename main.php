@@ -10,10 +10,10 @@
 
 <header class="main-header">
     <video poster="img/desk-work.jpg" class="head-video" playsinline autoplay muted loop>
-        <source src="http://kris-site.local/wp-content/uploads/2020/08/SpaceRun.mp4" type="video/mp4">
+        <source src="http://34.74.82.96/wp-content/uploads/2020/08/SpaceRun.mp4" type="video/mp4">
     </video>
     <div class="content">
-        <h1>THIS IS A TEST <span class="red-hover">One Pixel</span></h1>
+        <h1>EVERY GREAT IDEA STARTS WITH <span class="red-hover">One Pixel</span></h1>
     </div>
 </header>
 <section id="creative-section" class="wow fadeIn">
@@ -44,7 +44,7 @@
 
 <section id="client-project" class="wow fadeIn">
     <h2>Previous Clients</h2>
-    <?php echo do_shortcode('[URIS id=60]'); ?>
+    <?php echo do_shortcode('[URIS id=36]'); ?>
 </section>
 
 

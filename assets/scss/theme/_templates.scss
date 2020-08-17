@@ -12,6 +12,7 @@ h1 {
 h2 {
     font-size: 5rem;
     text-align: center;
+    padding-bottom: 2rem;
 }
 
 h3 {
@@ -71,6 +72,10 @@ section, footer {
     padding: 4rem 2rem;
 }
 
+// section:nth-child(even) {
+//     background: #3b3939;
+// }
+
 .red {
     color: #f10;
 }
@@ -84,17 +89,22 @@ section, footer {
     
 }
 
-.full-btn {
+form p {
+    margin: 0;
+    text-align: center;
+}
+
+form .wpcf7-submit {
     background: #f10;
     color: white;
     padding: 1rem 2rem;
+    width: unset;
+    height: unset;
+    border: none;
 }
 
 /* Nav */
 nav {
-    position: fixed;
-    height: 100px;
-    z-index: 100;
     border-bottom: 1px solid white;
     width: 100%;
     display: flex;
@@ -241,7 +251,7 @@ nav {
 #creative-section .work-img {
     height: 100%;
     width: 100%;
-    background-image: url('http://kris-site.local/wp-content/uploads/2020/08/awhCbhLqRceCdjcPQUnn_IMG_0249-scaled.jpg');
+    background-image: url('http://34.74.82.96/wp-content/uploads/2020/08/awhCbhLqRceCdjcPQUnn_IMG_0249-scaled.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -425,7 +435,7 @@ canvas {
 }
 
 .info-image {
-    background: url('http://kris-site.local/wp-content/uploads/2020/08/kris.jpg');
+    background: url('http://34.74.82.96/wp-content/uploads/2020/08/kris.jpg');
     height: 575px;
     width: 590px;
     background-size: cover;
@@ -468,9 +478,12 @@ form div {
     padding: 15px 0;
 }
 
-form h5 {
+form label {
     font-size: 35px;
     margin: 0;
+    letter-spacing: 5px;
+    color: #f10;
+    font-family: 'bebas_neueregular';
 }
 
 input, textarea {
