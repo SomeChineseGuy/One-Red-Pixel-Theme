@@ -13,7 +13,7 @@
         <source src="http://34.74.82.96/wp-content/uploads/2020/08/SpaceRun.mp4" type="video/mp4">
     </video>
     <div class="content">
-        <h1>EVERY GREAT IDEA STARTS WITH <span class="red-hover">One Pixel</span></h1>
+        <h1>EVERY GREAT IDEA STARTS WITH One <span class="red-hover">Pixel</span></h1>
     </div>
 </header>
 <section id="creative-section" class="wow fadeIn">
@@ -43,7 +43,7 @@
 </section>
 
 <section id="client-project" class="wow fadeIn">
-    <h2>Previous Clients</h2>
+    <h2>Trusted Clients</h2>
     <?php echo do_shortcode('[URIS id=36]'); ?>
 </section>
 
@@ -60,5 +60,6 @@
     </div>
 </section>
 <footer class="contact" id="contact">
+    <h2>Contact Us</h2>
     <?php echo do_shortcode('[contact-form-7 id="34" title="Contact form 1"]'); ?>
 </footer>
