@@ -9,7 +9,7 @@
 ?>
 <nav class="main main-nav">
     <div class="logo-container">
-        <a href="http://oneredpixel.ca/"><div class="red-pixel"><img src="http://kris-site.local/wp-content/uploads/2020/08/logobanner-1.png" alt="One Red Pixel Logo" class="logo"></div></a>
+        <a href="http://oneredpixel.ca/"><div class="red-pixel"><img src="http://34.74.82.96/wp-content/uploads/2020/08/logobanner.png" alt="One Red Pixel Logo" class="logo"></div></a>
     </div>
     <a href="#contact" class="icon"><i class="far fa-envelope fa-3x"></i></a>
 </nav>
@@ -77,4 +77,9 @@
 <section class="contact" id="contact">
     <h2>Contact Us</h2>
     <?php echo do_shortcode('[contact-form-7 id="34" title="Contact form 1"]'); ?>
+
 </section>
+
+<div class="copyright">
+  <p>&#169; One <span class="red">Red</span> Pixel 2020</p>
+</div>
