@@ -36,6 +36,12 @@
         </div>
     </article>        
 </section>
+<canvas></canvas>
+
+<section id="demo-reo">
+    <h2>Demo</h2>
+    <?php echo do_shortcode("[origincode_videogallery id='1']"); ?>
+</section>
 
 <section id="instagram" class="animated fadeIn">
     <h2>Follow Us on Instagram</h2>   
