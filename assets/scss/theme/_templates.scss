@@ -176,7 +176,7 @@ nav {
 .logo-container {
     overflow: hidden;
     position: relative;
-    width: 400px;
+    width: 500px;
     margin-left: 30px;
 }
 
@@ -196,7 +196,6 @@ nav {
     height: 50px;
     width: 50px;
     background-color: #f10;
-    position: relative;
     z-index: 5;
 }
 
@@ -207,7 +206,7 @@ nav {
     left: 60px;
     -webkit-animation: slide-right 1s forwards;
     animation: slide-right 1s forwards;
-    z-index: 0;
+    z-index: -1;
 }
 
 @-webkit-keyframes slide-right {
