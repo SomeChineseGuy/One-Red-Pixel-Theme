@@ -9,7 +9,7 @@
 ?>
 
 <header class="main-header">
-    <video poster="img/desk-work.jpg" class="head-video" playsinline autoplay muted loop>
+    <video class="head-video" playsinline autoplay muted loop>
         <source src="http://34.74.82.96/wp-content/uploads/2020/08/SpaceRun.mp4" type="video/mp4">
     </video>
     <div class="content">
@@ -43,10 +43,13 @@
 
 <section id="demo-reo">
     <h2>Demo</h2>
-    
+    <?php echo do_shortcode("[origincode_videogallery id='1']"); ?>
 </section>
 
-
+<section id="instagram" class="animated fadeIn bg-black">
+    <h2>Follow Us on Instagram</h2>   
+    <?php echo do_shortcode('[instagram-feed]'); ?>
+</section>
 
 <section id="client-project" class="wow fadeIn">
     <h2>Trusted Clients</h2>
@@ -54,17 +57,18 @@
 </section>
 
 
-
-<section id="about">
-    <h2>About</h2>
-    <div class="about-section">
-        <div class=" wow fadeInLeft">
-            <div class="info-image"></div>
-            <div class="red-background"></div>
-        </div>   
-        <p class="wow fadeInRight"><strong>Kris Schuman</strong> is just your friendly, neighbourhood Motion Graphics Artist and Filmmaker. Graduating with honours from Ai Vancouver with a focus on visual story telling and editing. There in Vancouver, and now based in Toronto, he has been honing his skills like a samurai, with great determination, passion and focus. In his downtime, when not working on a video, he's most likely to be found cooking in the kitchen, watching old episodes of Batman, or having a drink with friends. He is constantly striving to evolve his craft; challenging himself and in turn developing and strengthening his skills. Kris is a strong believer that there is always opportunity to grow, and that all dogs go to heaven. He enjoys and takes pride working with all his clients, big or small and from all walks of life. His skills and expertise are sought out by those searching for him to bring to life their visions. Whether it be personal projects or large video productions for major corporations such as, KPMG, TD BANK, and Trillium Health Partners, his genuine, passionate and creative personality is his guarantee.</p>
-    </div>
-</section>
+<main  class="bg-black"> 
+  <section id="about">
+      <h2>About</h2>
+      <div class="about-section">
+          <div class=" wow fadeInLeft">
+              <div class="info-image"></div>
+              <div class="red-background"></div>
+          </div>   
+          <p class="wow fadeInRight"><strong>Kris Schuman</strong> is just your friendly, neighbourhood Motion Graphics Artist and Filmmaker. Graduating with honours from Ai Vancouver with a focus on visual story telling and editing. There in Vancouver, and now based in Toronto, he has been honing his skills like a samurai, with great determination, passion and focus. In his downtime, when not working on a video, he's most likely to be found cooking in the kitchen, watching old episodes of Batman, or having a drink with friends. He is constantly striving to evolve his craft; challenging himself and in turn developing and strengthening his skills. Kris is a strong believer that there is always opportunity to grow, and that all dogs go to heaven. He enjoys and takes pride working with all his clients, big or small and from all walks of life. His skills and expertise are sought out by those searching for him to bring to life their visions. Whether it be personal projects or large video productions for major corporations such as, KPMG, TD BANK, and Trillium Health Partners, his genuine, passionate and creative personality is his guarantee.</p>
+      </div>
+  </section>
+</main>
 <footer class="contact" id="contact">
     <h2>Contact Us</h2>
     <?php echo do_shortcode('[contact-form-7 id="34" title="Contact form 1"]'); ?>

@@ -69,6 +69,10 @@ canvas {
   height: 100%;
 }
 
+.bg-black {
+  background-color: #010e14;
+}
+
 .info li {
     padding-left: 1em; 
     text-indent: -.7em;
@@ -92,6 +96,10 @@ section, footer {
     max-width: 1200px;
     margin: 0 auto;
     padding: 4rem 2rem;
+}
+
+main {
+  
 }
 
 // section:nth-child(even) {
@@ -452,7 +460,6 @@ nav {
 /* instagram */
 #instagram {
     max-width: 100%;
-    padding: 0;
 }
 
 #instagram .eapps-instagram-feed-title {
