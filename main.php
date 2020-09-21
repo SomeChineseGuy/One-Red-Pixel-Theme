@@ -36,17 +36,17 @@
         </div>
     </article>        
 </section>
-<canvas></canvas>
+<section id="canvas" class="canvas-container">
+    <canvas></canvas>
+</section>
+
 
 <section id="demo-reo">
     <h2>Demo</h2>
-    <?php echo do_shortcode("[origincode_videogallery id='1']"); ?>
+    
 </section>
 
-<section id="instagram" class="animated fadeIn">
-    <h2>Follow Us on Instagram</h2>   
-    <?php echo do_shortcode('[instagram-feed]'); ?>
-</section>
+
 
 <section id="client-project" class="wow fadeIn">
     <h2>Trusted Clients</h2>
