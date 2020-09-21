@@ -98,13 +98,26 @@ section, footer {
     padding: 4rem 2rem;
 }
 
-main {
-  
+footer, nav.navbar {
+  display: none; 
 }
 
-// section:nth-child(even) {
-//     background: #3b3939;
-// }
+.wrap {
+  padding: 0 !important;
+}
+
+nav.main.main-nav {
+  position: fixed;
+    height: 100px;
+    z-index: 100;
+    border-bottom: 1px solid white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(23,23,23, 1);
+}
+
 
 .red {
     color: #f10;
@@ -518,6 +531,7 @@ height: 1200px;
     transition: all .5s ease-in;
     margin-bottom: 5em;
     position: relative;
+    z-index: 10;
 }
 
 .red-background{
@@ -526,7 +540,7 @@ height: 1200px;
     width: 480px;
     background: red;
     position: absolute;
-    z-index: -1;
+    z-index: 5;
     left: -3%;
     top: 4%;
 }
