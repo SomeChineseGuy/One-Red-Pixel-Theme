@@ -5,4 +5,5 @@ import WOW from 'wowjs'
         live: false,
     })
     wow.init()
+    
 })(jQuery);

@@ -9,13 +9,13 @@
 ?>
 <nav class="main main-nav">
     <div class="logo-container">
-        <a href="http://oneredpixel.ca/"><div class="red-pixel"><img src="http://34.74.82.96/wp-content/uploads/2020/08/logobanner.png" alt="One Red Pixel Logo" class="logo"></div></a>
+        <a href="https://oneredpixel.ca/"><div class="red-pixel"><img src="https://www.oneredpixel.ca//wp-content/uploads/2020/08/logobanner.png" alt="One Red Pixel Logo" class="logo"></div></a>
     </div>
-    <a href="#contact" class="icon"><i class="far fa-envelope fa-3x"></i></a>
+    <a href="#contact" class="icon"><i class="far fa-envelope fa-2x"></i></a>
 </nav>
 <header class="main-header">
     <video class="head-video" playsinline autoplay muted loop>
-        <source src="http://34.74.82.96/wp-content/uploads/2020/08/SpaceRun.mp4" type="video/mp4">
+        <source poster="http://www.oneredpixel.ca/wp-content/uploads/2020/09/space-run-standin.jpg" src="https://www.oneredpixel.ca//wp-content/uploads/2020/08/SpaceRun.mp4" type="video/mp4">
     </video>
     <div class="content">
         <h1>EVERY GREAT IDEA STARTS WITH One <span class="red-hover">Pixel</span></h1>
@@ -25,7 +25,7 @@
     <h2>Always Stay Creative</h2>
     <article>
         <div class="left wow slideInLeft">
-            <p>Every creative journey starts with an idea. At One Red Pixel we believe that every creative journey starts with one pixel<span class="red">red.</span>
+            <p>Every creative journey starts with an idea. At One Red Pixel we believe that every creative journey starts with one pixel <span class="red"> red.</span>
                 That’s because we believe in a creative process that’s easy to start, delivers results and feels personal.
                 <br>
                 Our promise to you is that:
@@ -48,7 +48,7 @@
 
 <section id="demo-reo">
     <h2>Demo</h2>
-    <?php echo do_shortcode("[origincode_videogallery id='1']"); ?>
+    <iframe src="https://player.vimeo.com/video/182949171" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </section>
 
 <section id="instagram" class="animated fadeIn bg-black">
