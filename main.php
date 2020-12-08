@@ -11,7 +11,7 @@
     <div class="logo-container">
         <a href="https://oneredpixel.ca/"><div class="red-pixel"><img src="https://www.oneredpixel.ca//wp-content/uploads/2020/08/logobanner.png" alt="One Red Pixel Logo" class="logo"></div></a>
     </div>
-    <a href="#contact" class="icon"><i class="far fa-envelope fa-2x"></i></a>
+    <a href="mailto:kris@oneredpixel.ca" class="icon"><i class="far fa-envelope fa-2x"></i></a>
 </nav>
 <header class="main-header">
     <video class="head-video" playsinline autoplay muted loop>
@@ -25,7 +25,7 @@
     <h2>Always Stay Creative</h2>
     <article>
         <div class="left wow slideInLeft">
-            <p>Every creative journey starts with an idea. At One Red Pixel we believe that every creative journey starts with one pixel <span class="red"> red.</span>
+            <p>Every creative journey starts with an idea. At One Red Pixel we believe that every creative journey starts with one <span class="red">Pixel.</span>
                 That’s because we believe in a creative process that’s easy to start, delivers results and feels personal.
                 <br>
                 Our promise to you is that:
@@ -48,7 +48,7 @@
 
 <section id="demo-reo">
     <h2>Demo</h2>
-    <iframe src="https://player.vimeo.com/video/182949171" width="1280" height="720" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    <iframe src="https://player.vimeo.com/video/182949171" class="demo-reo-vim" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 </section>
 
 <section id="instagram" class="animated fadeIn bg-black">
@@ -75,9 +75,8 @@
   </section>
 </main>
 <section class="contact" id="contact">
-    <h2>Contact Us</h2>
-    <?php echo do_shortcode('[contact-form-7 id="34" title="Contact form 1"]'); ?>
-
+    <a href="mailto:kris@oneredpixel.ca"><h2>Contact Us</h2></a>
+    <h4 class="center">Feel free to reach out at <a class="email-me" href="mailto:kris@oneredpixel.ca">kris@oneredpixel.ca</a></h4>
 </section>
 
 <div class="copyright">
