@@ -1,8 +1,6 @@
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const path = require("path");
-const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
-const MinifyPlugin = require('babel-minify-webpack-plugin');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
 module.exports = {
     entry: {
@@ -13,6 +11,7 @@ module.exports = {
     output: {
         filename: '[name].js',
         path: path.resolve(__dirname, '../../dist'),
+        clean: true,
     },
     module: {
         rules: [
@@ -24,48 +23,49 @@ module.exports = {
             {
                 test: /\.scss$/,
                 use: [
-                    MiniCssExtractPlugin.loader, 
-                    "css-loader", 
-                    "sass-loader",
+                    MiniCssExtractPlugin.loader,
+                    "css-loader",
+                    {
+                        loader: "sass-loader",
+                        options: {
+                            sassOptions: { quietDeps: true }
+                        }
+                    },
                     "postcss-loader"
                 ],
             },
             {
                 test: /\.css$/,
                 use: [
-                    MiniCssExtractPlugin.loader, 
+                    MiniCssExtractPlugin.loader,
                     "css-loader",
                 ],
             },
             {
                 test: /\.woff($|\?)|\.woff2($|\?)|\.ttf($|\?)|\.eot($|\?)|\.svg($|\?)/,
-                loader: 'file-loader',
-                options: {
-                    name: '[name].[ext]',
-                    outputPath: 'fonts/'
+                type: 'asset/resource',
+                generator: {
+                    filename: 'fonts/[name][ext]'
                 }
             },
             {
                 test:  /\.(jpe?g|png|gif)$/,
-                loader: 'file-loader',
-                options: {
-                    name: '[name].[ext]',
-                    outputPath: 'images/'
+                type: 'asset/resource',
+                generator: {
+                    filename: 'images/[name][ext]'
                 }
             },
         ]
     },
     plugins: [
-        new MiniCssExtractPlugin({ 
-            filename: "[name].css", 
-            allChunks: true 
+        new MiniCssExtractPlugin({
+            filename: "[name].css"
         }),
-        new MinifyPlugin(),
-        new CleanWebpackPlugin(),
     ],
     optimization: {
         minimizer: [
-            new OptimizeCSSAssetsPlugin({})
+            '...',
+            new CssMinimizerPlugin()
         ]
     }
 };
